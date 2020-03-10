@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Askew.JsonLogReader</PackageId>
+    <Version>0.1</Version>
+    <PackageTags>Microsoft Azure Storage Blobs;Azure;Blobs;Blob;Storage;Json;JsonLines</PackageTags>
+    <Description>
+      <![CDATA[<h1>Json Log File Reader</h1> 
+<p>This library enables efficient processing of large files that contain log data in JSON format. 
+It can also perform simple transformations on the data replacing property names.</p>
+<p>It currently supports reading files from Azure Blob storage, but can easily be extended to read files from other sources.</p>
+]]></Description>
+    <Authors>Stephen Askew</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.3.0" />
+  </ItemGroup>
+
+</Project>
