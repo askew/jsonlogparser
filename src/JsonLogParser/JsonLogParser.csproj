@@ -19,7 +19,7 @@ It can also perform simple transformations on the data replacing property names.
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Azure.Storage.Blobs" Version="12.3.0" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.13.0" />
   </ItemGroup>
 
 </Project>
